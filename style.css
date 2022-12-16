@@ -141,7 +141,8 @@ padding: 10px;
     height: 42px;
    margin-right: 20px;
 }
-.footer{
+.footer__title{
+    display: flex;
     background: #1c93b8;
     padding: 0;
 }
