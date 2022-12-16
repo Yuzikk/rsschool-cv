@@ -145,10 +145,7 @@ padding: 10px;
     display: flex;
     background: #1c93b8;
     padding: 0;
-}
-.footer__social{
-    display: flex;
-    justify-content: space-around;
+     justify-content: space-around;
 }
 .footer__social-img{
     height: 40px;
