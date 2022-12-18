@@ -50,7 +50,12 @@ padding: 40px;
 .profile__text-img {
     border-radius: 50% 20% / 10% 40%
 }
-
+.profile__text__title{
+    text-align: center;
+}
+.profile__text__info{
+    text-align: center;
+}
 .right__info {
     position: relative;
     background: #fff;
@@ -140,6 +145,10 @@ padding: 10px;
 .menu__box{
     height: 42px;
    margin-right: 20px;
+}
+.profile__text-pre{
+    font-size: 16px;
+    margin: 15px;
 }
 .footer__title{
     display: flex;
