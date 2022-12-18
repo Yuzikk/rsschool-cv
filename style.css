@@ -169,6 +169,8 @@ padding: 10px;
         text-align: center;
     }
     .profile__text-pre{
+        font-family: 'Times New Roman', Times, serif;
         text-align: initial;
+        font-size: x-small;
     }
 }
