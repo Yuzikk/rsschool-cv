@@ -147,7 +147,6 @@ padding: 10px;
    margin-right: 20px;
 }
 .profile__text-pre{
-    font-size: 16px;
     margin: 15px;
 }
 .footer__title{
@@ -161,12 +160,15 @@ padding: 10px;
     margin: 20px;
 }
 @media(max-width:800px){
+    h3{
+        padding: 0;
+    }
     .container{
         margin: 10px;
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
     }
-    h3{
-        padding: 0;
+    .profile__text-pre{
+        text-align: initial;
     }
 }
