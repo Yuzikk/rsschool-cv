@@ -50,12 +50,7 @@ padding: 40px;
 .profile__text-img {
     border-radius: 50% 20% / 10% 40%
 }
-.profile__text__title{
-    text-align: center;
-}
-.profile__text__info{
-    text-align: center;
-}
+
 .right__info {
     position: relative;
     background: #fff;
@@ -147,30 +142,35 @@ padding: 10px;
    margin-right: 20px;
 }
 .profile__text-pre{
-    margin: 15px;
+   margin: 20px;
+   font-size: 16px;
+}
+.profile__title-project{
+    padding: 20px;
 }
 .footer__title{
-    display: flex;
     background: #1c93b8;
     padding: 0;
-     justify-content: space-around;
+}
+.footer__social-text{
+    display: flex;
+    padding: 20px;
+}
+.footer__social{
+    display: flex;
+    justify-content: space-around;
 }
 .footer__social-img{
     height: 40px;
     margin: 20px;
 }
 @media(max-width:800px){
-    h3{
-        padding: 0;
-    }
     .container{
         margin: 10px;
         grid-template-columns: repeat(1, 1fr);
         text-align: center;
     }
-    .profile__text-pre{
-        font-family: 'Times New Roman', Times, serif;
-        text-align: initial;
-        font-size: x-small;
+    h3{
+        padding: 0;
     }
 }
